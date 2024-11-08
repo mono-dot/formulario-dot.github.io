@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ESTILOS.CSS" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>INICIO DE SECION</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="sign-up">
+        <form>
+          <h1>CREAR CUENTA</h1>
+       
+          <span>CORREO ELECTRONICO PARA REGISTRARSE</span>
+          <input type="text" placeholder="NOMBRE" />
+          <input type="text" placeholder="EMAIL" />
+          <input type="password" placeholder="CONTRASEÑA" />
+          <button>INICIAR SESION</button>
+        </form>
+      </div>
+      <div class="sign-in">
+        <form>
+          <h1>INICIAR SESION</h1>
+          <span>USAR CONTRASEÑA DE CORREO ELECTRONICO</span>
+          <input type="text" placeholder="EMAIL" />
+          <input type="password" placeholder="CONTRASEÑA" />
+          <a href="#">USAR CONTRASEÑA
+          </a>
+          <button>INICIAR SESION</button>
+        </form>
+      </div>
+      <div class="toogle-container">
+        <div class="toogle">
+          <div class="toogle-panel toogle-left">
+            <h1>BIENVENIDO USUARIO</h1>
+            <p>SI, YA TIENES UNA CUENTA</p>
+            <button class="hidden" id="login">INICIAR SESION</button>
+          </div>
+          <div class="toogle-panel toogle-right">
+            <h1>HOLA, USUARIO!</h1>
+            <p>NO,TIENES UNA CUENTA</p>
+            <button class="hidden" id="register">INSCRIBIRSE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="SCRIPT.JS"></script>
+  </body>
+</html>
